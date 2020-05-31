@@ -1,3 +1,7 @@
+Code Source:https://github.com/philtell/Instance_Search
+
+author:philtell
+
 **Development Environment**
 | Enviroment Name | Version |
 |--|--|
@@ -10,7 +14,7 @@
 
 **Pretreatment**:
 
-1. Download Picture From Oxford Database.At first, you should run the command like this **sh getData.sh**with the shell of Ubuntu.
+Download Picture From Oxford Database.At first, you should run the command like this **sh getData.sh**with the shell of Ubuntu.
 
 then ,you can run the command like under this sentence, it will be extract the feature from every picture in database and build indices file featureCNN.h.
 
@@ -25,4 +29,6 @@ last, you can run the command like under this sentence, it will find three pics 
 ```
 python query_online.py -query database/all_souls_000000.jpg -index featureCNN.h5 -result database
 ```
+
+
 
