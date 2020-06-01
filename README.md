@@ -1,7 +1,7 @@
 
-Code Source:https://github.com/philtell/Instance_Search
+**Code Source**:https://github.com/philtell/Instance_Search
 
-author:philtell
+**author**:philtell
 
 **Development Environment**
 | Enviroment Name | Version |
@@ -24,6 +24,9 @@ then ,you can run the command like under this sentence, it will be extract the f
 对database文件夹内图片进行特征提取，建立索引文件featureCNN.h5
 
 `python index.py -database database -index featureCNN.h5`
+
+**Find the picture which are most similarity with orgin picture**:
+
 last, you can run the command like under this sentence, it will find three pics  which simlarity are most close in the dataset
 使用database文件夹内all_souls_000000.jpg作为测试图片，在database内以featureCNN.h5进行近似图片查找，并显示最近似的3张图片
 
