@@ -16,7 +16,9 @@ author:philtell
 **Pretreatment**:
 
 Download Picture From Oxford Database.At first, you should run the command like this **sh getData.sh**with the shell of Ubuntu.
+
 **Extract Feature**:
+
 then ,you can run the command like under this sentence, it will be extract the feature from every picture in database and build indices file featureCNN.h.
 
 对database文件夹内图片进行特征提取，建立索引文件featureCNN.h5
